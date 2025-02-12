@@ -22,6 +22,7 @@
    ![S1](screenshots/1.png)
    
 2. Создание HTML-страницы с подключением JavaScript:
+
    ![S2](screenshots/2.png)
 
 
@@ -33,7 +34,7 @@
 
    ![S4](screenshots/7.png)
 
-3. Добавление `index.js`:
+4. Добавление `index.js`:
 
 
    ![S5](screenshots/4.png)
