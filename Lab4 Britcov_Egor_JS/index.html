@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Финансовый Учёт</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <h1>Учёт личных финансов</h1>
+  <form id="transaction-form" style="margin-top: 20px;">
+  <input type="number" id="amount" placeholder="Сумма" required />
+  
+  <select id="category" required>
+    <option value="">Выберите категорию</option>
+    <option value="Продукты">Продукты</option>
+    <option value="Транспорт">Транспорт</option>
+    <option value="Зарплата">Зарплата</option>
+    <option value="Развлечения">Развлечения</option>
+    <option value="Прочее">Прочее</option>
+  </select>
+
+  <input type="text" id="description" placeholder="Описание" required />
+
+  <button type="submit">Добавить транзакцию</button>
+
+  <p id="form-error" style="color: red; margin-top: 10px; display: none;"></p>
+</form>
+  <div id="total-container">
+    Общая Сумма: <span id="total">0</span>
+  </div>
+  <table id="transactions-table">
+    <thead>
+      <tr>
+        <th>Дата и Время</th>
+        <th>Категория</th>
+        <th>Описание</th>
+        <th>Действие</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+  <p id="full-description" style="margin-top: 20px; font-style: italic; color: #504d4d;">
+     Нажмите на транзакцию, чтобы увидеть полное описание.
+  </p>
+  <script type="module" src="./src/index.js"></script>
+</body>
+</html>
