@@ -23,7 +23,7 @@
    
 2. Создание HTML-страницы с подключением JavaScript:
 
-   ```js
+```js
 <!DOCTYPE html>
 <html lang="en">
  <head>
@@ -37,7 +37,7 @@
   </script>
  </body>
 </html>
-   ```
+```
 
 
    *Проверка выполнения*
