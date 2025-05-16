@@ -63,7 +63,16 @@ console.log("Сообщение в консоли");
 Добавляю следующий код в `index.js`:
 
 
-![S8](screenshots/10.png)
+```js
+let name="Egor"
+let birthYear="2006"
+let isStudent="True"
+
+console.log("Имя:", name);
+console.log("Год:", birthYear);
+console.log("Студент:", isStudent);
+
+```
 
 *Проверка выполнения*
 
