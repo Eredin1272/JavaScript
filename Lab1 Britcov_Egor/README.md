@@ -24,7 +24,7 @@
 2. Создание HTML-страницы с подключением JavaScript:
 
    ```js
-   <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
  <head>
    <title>Привет, мир!</title>
