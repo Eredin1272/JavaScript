@@ -23,7 +23,21 @@
    
 2. Создание HTML-страницы с подключением JavaScript:
 
-   ![S2](screenshots/2.png)
+   ```js
+   <!DOCTYPE html>
+<html lang="en">
+ <head>
+   <title>Привет, мир!</title>
+   <script src="index.js"></script>
+ </head>
+ <body>
+  <script>
+    alert("Привет, мир!");
+    console.log("Hello, console!");
+  </script>
+ </body>
+</html>
+   ```
 
 
    *Проверка выполнения*
