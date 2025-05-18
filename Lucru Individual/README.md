@@ -195,7 +195,11 @@ export function loadTodos() {
 ![active](./screenshots/active.png)
 
 Сортировка по Выполненным задачам
+
 ![done](./screenshots/done.png)
+
+Финальный результат
+
 ![finalResult](./screenshots/finalResult.png)
 
 
