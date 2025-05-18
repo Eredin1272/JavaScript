@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+<div class="controls">
+  <input type="text" id="search-input" placeholder="Поиск задачи..." />
+
+  <select id="filter-select">
+    <option value="all">Все</option>
+    <option value="active">Активные</option>
+    <option value="completed">Завершённые</option>
+  </select>
+
+  <select id="sort-select">
+    <option value="default">По умолчанию</option>
+    <option value="az">По алфавиту (А–Я)</option>
+    <option value="za">По алфавиту (Я–А)</option>
+    <option value="date-asc">По дате (сначала старые)</option>
+    <option value="date-desc">По дате (сначала новые)</option>
+  </select>
+</div>
+    <h1> Список дел</h1>
+
+    <form id="todo-form">
+      <input type="text" id="todo-input" placeholder="Что нужно сделать?" required />
+      <button type="submit">Добавить</button>
+    </form>
+
+    <ul id="todo-list"></ul>
+  </div>
+
+  <script type="module" src="js/index.js"></script> 
+</body>
+</html>
